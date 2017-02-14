@@ -284,3 +284,4 @@ def write_cc_data_to_dat(cc_dat, dat_file):
         writer.write(cc_dat.level_count.to_bytes(2, cc_data.BYTE_ORDER))
         for level in cc_dat.levels:
             write_level_to_dat(level, writer)
+

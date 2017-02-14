@@ -1,0 +1,29 @@
+{
+  "games" :
+  [
+    {
+      "platform": {
+        "launch year": 1989,
+        "name": "Atari Lynx"
+      },
+      "title": "Chip's Challenge",
+      "Year": 1989
+    },
+    {
+      "platform": {
+        "launch year": 2003,
+        "name": "Steam"
+      },
+      "title": "Chip's Challenge 2",
+      "Year": 2015
+    },
+    {
+      "platform": {
+        "launch year": 2017,
+        "name": "Mac"
+      },
+      "title": "Chip's Challenge 3",
+      "Year": 2017
+    }
+  ]
+}
