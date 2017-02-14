@@ -2,7 +2,37 @@ import test_data
 import sys
 import json
 
-#Creates and returns a GameLibrary object(defined in test_data) from loaded json_data
+class Platform:
+    def __init__(self, name="Unknown", launch_year=0):
+        self.name = name
+        self.launch_year = launch_year
+
+class Game:
+    def __init__(self, title="Unknown", platform=None, year=0):
+        self.title = title
+        self.platform = platform
+        self.year = year
+
+class GameLibrary:
+    def __init__(self):
+        self.games = []
+
+    def add_game(self, game):
+        self.games.append(game)
+
+
+def print_game_library(game_library_data):
+    print("Analyising game library data:")
+    game_count = 0
+    for game in game_library_data.games:
+        print("  Game "+str(game_count))
+        print("    Title = "+game.title)
+        print("    Year  = "+str(game.year))
+        print("    Platform = ")
+        print("       Name = "+game.platform.name)
+        print("       Launch Year = "+str(game.platform.launch_year))
+        game_count += 1
+
 def make_game_library_from_json(json_data):
     #Initialize a new GameLibrary
     game_library = test_data.GameLibrary()
@@ -34,3 +64,6 @@ else:
 #Load the json data from the input file
 #Use make_game_library_from_json(json_data) to convert the data to GameLibrary data
 #Print out the resulting GameLibrary data using print_game_library(game_library_data) in test_data.py
+
+lib = make_game_library_from_json("test_data.json")
+print_game_library(lib)
