@@ -1,0 +1,13 @@
+{
+  "levels" :
+  [
+    {
+      "number": 1,
+      "time": 0,
+      "chip number": 4,
+      "upper layer": [],
+      "lower layer": [],
+      "optional fields": []
+    }
+  ]
+}
