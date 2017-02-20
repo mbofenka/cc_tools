@@ -4,10 +4,10 @@
     {
       "number": 1,
       "time": 0,
-      "chip number": 4,
+      "chip number": 3,
       "optional fields": {
-        "map title": "cheese",
-        "map hint": "art is cheese made visible",
+        "map title": "Cheese",
+        "map hint": "Art is cheese made visible.",
         "encoded password": [202, 204, 212, 220, 203, 216]
       },
       "upper layer": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
