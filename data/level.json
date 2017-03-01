@@ -8,7 +8,16 @@
       "optional fields": {
         "map title": "Cheese",
         "map hint": "Art is cheese made visible.",
-        "encoded password": [202, 204, 212, 220, 203, 216]
+        "encoded password": [202, 204, 212, 220, 203, 216],
+        "traps": {
+          "buttons": [],
+          "traps": []
+        }, 
+        "cloning machines": {
+          "buttons": [],
+          "machines": []
+        },
+        "monsters": []
       },
       "upper layer": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                       0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0,
